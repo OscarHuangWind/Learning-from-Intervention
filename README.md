@@ -1,5 +1,5 @@
 # Learmomg from Heterogeneous Intervention: Uncertainty-aware Human-guided Reinforcement Learning for Autonomous Driving
-:dizzy: A novel **_learning from heterogeneous intervention (LfHI)_** approach that considers the **_heterogeneity and intrinsic uncertainty_** of natural human behaviors in the context of the **_Human-in-the-loop-RL_** framework for learning robust **_autonomous driving_** policy under heterogeneous policies from multi-human interventions and corresponding uncertainties.**
+:dizzy: A novel **_learning from heterogeneous intervention (LfHI)_** approach that considers the **_heterogeneity and intrinsic uncertainty_** of natural human behaviors in the context of the **_Human-in-the-loop-RL_** framework for learning robust **_autonomous driving_** policy under heterogeneous policies from multi-human interventions and corresponding uncertainties.
 
 :wrench: Realized in SMARTS simulator with Ubuntu 20.04 and Pytorch. 
 
@@ -63,7 +63,7 @@ scl scenario build --clean Scenario/Roundout/
 ```
 python main.py
 ```
-## Visulazation
+## Visualization
 Type the following command in the terminal:
 ```
 scl envision start
