@@ -1,0 +1,107 @@
+##### UnHiL-DRL Config #####
+---
+##### DRL #####
+IMPORTANTSAMPLING : False
+ENTROPY : True
+TOGETHER : False
+THRESHOLD : 10
+TARGET_UPDATE : 1
+BATCH_SIZE : 32
+GAMMA : 0.99
+MEMORY_CAPACITY : 20000
+PREFERENCE_FREQ : 1
+Q_FREQ : 1
+EPS_START : 1.0
+EPS_END : 0.05
+EPS_DECAY : 100
+FRAME_HISTORY_LEN : 4
+MAX_NUM_EPOC : 300
+MAX_NUM_STEPS : 200
+PLOT_INTERVAL : 10
+SAVE_INTERVAL : 20
+DECISION_VARIABLE : 4
+EVALUATION_EPOC : 10
+
+##### Environment ######
+AGENT_ID : 'Pianist'
+env_name : 'leftturn' #'merge'
+screen_size : 120
+view : 50
+
+##### Algo ######
+UnaHug:
+    name : 'unahug'
+    PREFERENCE : True
+    DOUBLE : True
+    DUELING : False
+    HUMAN_GUIDENCE : True
+    POLICY_GUIDANCE : True
+    VALUE_GUIDANCE : True
+    PENALTY_GUIDANCE : True
+    ADAPTIVE_CONFIDENCE : True
+    
+HIRL:
+    name : 'hirl'
+    PREFERENCE : False
+    DOUBLE : True
+    DUELING : False
+    HUMAN_GUIDENCE : True
+    POLICY_GUIDANCE : False
+    VALUE_GUIDANCE : False
+    PENALTY_GUIDANCE : True
+    ADAPTIVE_CONFIDENCE : False
+
+EIL:
+    name : 'eil'
+    PREFERENCE : False
+    DOUBLE : True
+    DUELING : False
+    HUMAN_GUIDENCE : True
+    POLICY_GUIDANCE : False
+    VALUE_GUIDANCE : True
+    PENALTY_GUIDANCE : False
+    ADAPTIVE_CONFIDENCE : False
+
+IARL:
+    name : 'iarl'
+    PREFERENCE : True
+    DOUBLE : True
+    DUELING : False
+    HUMAN_GUIDENCE : True
+    POLICY_GUIDANCE : True
+    VALUE_GUIDANCE : False
+    PENALTY_GUIDANCE : True
+    ADAPTIVE_CONFIDENCE : False
+
+PHIL:
+    name : 'phil'
+    PREFERENCE : True
+    DOUBLE : True
+    DUELING : False
+    HUMAN_GUIDENCE : True
+    POLICY_GUIDANCE : True
+    VALUE_GUIDANCE : True
+    PENALTY_GUIDANCE : True
+    ADAPTIVE_CONFIDENCE : False
+
+PGDQN:
+    name : 'pgdqn'
+    PREFERENCE : True
+    DOUBLE : True
+    DUELING : False
+    HUMAN_GUIDENCE : False
+    POLICY_GUIDANCE : False
+    VALUE_GUIDANCE : False
+    PENALTY_GUIDANCE : False
+    ADAPTIVE_CONFIDENCE : False
+    
+DRL:
+    name : 'd3qn'
+    PREFERENCE : False
+    DOUBLE : True
+    DUELING : True
+    HUMAN_GUIDENCE : False
+    POLICY_GUIDANCE : False
+    VALUE_GUIDANCE : False
+    PENALTY_GUIDANCE : False
+    ADAPTIVE_CONFIDENCE : False
