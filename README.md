@@ -1,7 +1,18 @@
 # Learmomg from Heterogeneous Intervention: Uncertainty-aware Human-guided Reinforcement Learning for Autonomous Driving
-:dizzy: A novel **_learning from heterogeneous intervention (LfHI)_** approach that considers the **_heterogeneity and intrinsic uncertainty_** of natural human behaviors in the context of the **_Human-in-the-loop-RL_** framework for learning robust **_autonomous driving_** policy under heterogeneous policies from multi-human interventions and corresponding uncertainties.
+:dizzy: This work proposes a novel **_learning from heterogeneous intervention (LfHI)_** approach that considers the **_heterogeneity and intrinsic uncertainty_** of human behaviors in the context of the **_Human-in-the-loop-RL framework_**.  
+
+:red_car: LfHI aims to learn a robust **_uncertainty-aware autonomous driving policy_** through heterogeneous behaviors from **_multi-human concurrent interventions_**.
 
 :wrench: Realized in SMARTS simulator with Ubuntu 20.04 and Pytorch. 
+
+# General Info
+- :2nd_place_medal: This work has won the **2nd place in Alibaba Future Car Innovation Challenge (Algorithm Track) 2022**.
+- :page_with_curl: [**Alibaba Future Car Innovation Challenge (Algorithm Track) 2022**](https://tianchi.aliyun.com/competition/entrance/531996/rankingList)
+
+# Video: Multi-Human Demonstration
+Distinct genders, age groups, and driving proficiency.
+
+https://github.com/OscarHuangWind/Learning-from-Intervention/assets/41904672/c6259c23-4a88-4283-9aa0-579e0b1ae2c9
 
 # Video: Unprotected Left Turn
 https://github.com/OscarHuangWind/Learning-from-Intervention/assets/41904672/8227ce00-73e5-4037-9192-5a837e5c2500
