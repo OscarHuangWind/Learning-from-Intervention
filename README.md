@@ -6,7 +6,7 @@
 # Framework
 
 <p align="center">
-<img src="https://github.com/OscarHuangWind/Learning-from-Intervention/blob/master/presentation/LfHI.png">
+<img src="">
 </p>
 
 # User Guide
