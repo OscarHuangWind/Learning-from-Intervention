@@ -1,4 +1,5 @@
-# Learmomg from Heterogeneous Intervention: Uncertainty-aware Human-guided Reinforcement Learning for Autonomous Driving
+# LfHI: UnaHug-RL for Autonomous Driving
+### :page_with_curl: Learning from Heterogeneous Intervention: Uncertainty-aware Human-guided Reinforcement Learning for Autonomous Driving
 :dizzy: This work proposes a novel **_learning from heterogeneous intervention (LfHI)_** approach that considers the **_heterogeneity and intrinsic uncertainty_** of human behaviors in the context of the **_Human-in-the-loop-RL framework_**.  
 
 :red_car: LfHI aims to learn a robust **_uncertainty-aware autonomous driving policy_** through heterogeneous behaviors from **_multi-human concurrent interventions_**.
