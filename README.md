@@ -41,7 +41,7 @@ You can modify your virtual environment name and dependencies in **environment.y
 
 ## Activate virtual environment.
 ```
-conda activate unahug
+conda activate unarl
 ```
 
 ## Install Pytorch
@@ -71,7 +71,7 @@ pip install -e .[extras]
 
 e.g. suppose to build Roundout scenario.
 ```
-cd <path/to/UnaHug-RL>
+cd <path/to/Learning-from-Intervention>
 scl scenario build --clean Scenario/Roundout/
 ```
 ## DRL Training
