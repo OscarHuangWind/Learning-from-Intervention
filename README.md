@@ -41,7 +41,7 @@ You can modify your virtual environment name and dependencies in **environment.y
 
 ## Activate virtual environment.
 ```
-conda activate unarl
+conda activate UnaRL
 ```
 
 ## Install Pytorch
