@@ -21,7 +21,7 @@ https://github.com/OscarHuangWind/Learning-from-Intervention/assets/41904672/822
 # Framework
 
 <p align="center">
-<img src="https://github.com/OscarHuangWind/Learning-from-Intervention/blob/master/presentation/LfHI_framework.png">
+<img src="https://github.com/OscarHuangWind/Learning-from-Intervention/blob/master/presentation/LfMG.png">
 </p>
 
 # User Guide
@@ -96,7 +96,7 @@ python N-human_policy_learning.py
 ```
 
 ## UnaRL Training
-Modify name of the mode in **main.py** file to "UnaHug", and run:
+Modify name of the mode in **main.py** file to "UnaRL", and run:
 ```
 python main.py
 ```
