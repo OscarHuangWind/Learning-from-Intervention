@@ -57,11 +57,11 @@
     <iframe src="./static/audios/ON_TOP_Instrumental.mp3" id="audio"></iframe>
   </audio>
     
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered">
-          <div class="column has-text-centered">
+      <section class="hero">
+        <div class="hero-body">
+          <div class="container is-max-desktop">
+            <div class="columns is-centered">
+              <div class="column has-text-centered">
             <h1 class="title is-1 publication-title">Uncertainty-aware Reinforcement Learning for Autonomous Driving with Multimodal Digital Driver Guidance</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
@@ -145,17 +145,23 @@
 
 
 <!-- Teaser video-->
-<section class="hero teaser">
+<section class="section hero is-light">
   <div class="container is-max-desktop">
     <div class="hero-body">
+      <h2 class="title has-text-centered">
+        Learning from Multimodal Guidance (LfMG).
+      </h2>
+      <h2 class="subtitle has-text-centered">
+        Approach Overview. (Check the full video below)
+      </h2>
+      
+      <div class="content has-text-justified">
       <video poster="" id="tree" autoplay controls muted loop height="100%">
         <source src="static/videos/Approach_Overview.mp4"
         type="video/mp4">
       </video>
-      <h2 class="subtitle has-text-centered">
-        Learning from Multimodal Guidance (LfMG) Approach Overview. (Unmute to enjoy the video)
-      </h2>
     </div>
+  </div>
   </div>
 </section>
 <!-- End teaser video -->
@@ -182,6 +188,10 @@
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
+      <div class="columns is-centered has-text-centered">
+        <h2 class="title is-3"> Preview </h2>
+      </div>
+    
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- Your image here -->
@@ -192,7 +202,7 @@
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/Demonstration.PNG" alt="MY ALT TEXT"/>
+        <img src="static/images/Demonstration.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           Multi-human Demonstration.
         </h2>
@@ -288,26 +298,72 @@
 </section> -->
 <!--End BibTex citation -->
 
-<section class="hero is-small is-light">
+<section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
       <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/_by9OOPyNNE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <h2 class="title is-3">Video Presentation (Unmute audio to enjoy the Video) </h2>
+      </div>
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+         <div class="publication-video">
+           <!-- Youtube embed code here -->
+           <iframe src="https://www.youtube.com/embed/_by9OOPyNNE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+         </div>
+    </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+<section class="hero is-light">
+<div class="hero-body">
+ <div class="container">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Ablation Study</h2>
+         <h2 class="subtitle has-text-centered">
+            Effectiveness of Adaptive Confidence Adjustment Module.
+         </h2>
+          <div class="item">
+           <img src="static/images/ablation.png" alt="MY ALT TEXT"/ class="center">
           </div>
-        </div>
+            <h2 class="subtitle">
+            <div class="content has-text-justified">
+               <br> We employ ten digital drivers whose success rates are between 50% and 70% to concurrently intervene in vehicle control and compare our method against PHIL-RL regarding the robustness of policy optimization and post-trained driving policy in the Ramp Merge scenario.<br>
+               <br> The converge speed of UnaRL completely dominates that of PHIL-RL with a large margin when the human guidance possesses high uncertainties. By observing both the reward curve and intervention rate curve, we can see that even though the intervention rate of PHIL-RL drops as fast as the UnaRL, the driving performance of PHIL-RL does not consistently improve at the same pace as our approach. It is because the PHIL-RL method underestimates the multi-modality of human guidance, blindly imitating human policy regardless of its uncertainties. On the contrary, our approach demonstrates superior data efficiency and converging performance even under diverse and multimodal guidance behaviors. Such robustness can be attributed to the design of the adaptive confidence adjustment module, which adaptively adjusts the confidence (weights) of learning objectives based on guidance policy and mixture variances. 
+            </div>
+            </h2>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered has-text-centered">
+        <h2 class="title is-3">Previous Work: Preference-guided Deep Q-Network (PGDQN)
+          <span class="link-block">
+            <a href="https://github.com/OscarHuangWind/Preference-Guided-DQN-Atari" target="_blank"
+              class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="fab fa-github"></i>
+                </span>
+              <span>TNNLS</span>
+            </a>
+          </span>
+        </h2>
       </div>
     </div>
   </div>
 </section>
 
-
-  <footer class="footer">
+<footer class="footer">
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-8">
