@@ -1,9 +1,10 @@
-# LfMG: UnaRL for Autonomous Driving
-
-### :page_with_curl: Learning from Multimodal Guidance: Uncertainty-aware Reinforcement Learning for Autonomous Driving with Multimodal Digital Driver Guidance
 # _[ICRA'24] Supplementary Materials_: Check the HD video and more details in our project website ! :arrow_double_down:
 
 # [[**Project Website**]](https://oscarhuangwind.github.io/Learning-from-Intervention./) | [[**Video**]](https://youtu.be/_by9OOPyNNE)
+
+# LfMG: UnaRL for Autonomous Driving
+
+### :page_with_curl: Learning from Multimodal Guidance: Uncertainty-aware Reinforcement Learning for Autonomous Driving with Multimodal Digital Driver Guidance
 
 :dizzy: This work proposes a novel **_learning from multimodal guidance (LfMG)_** approach that considers the **_multi-modality and intrinsic uncertainty_** of human behaviors in the context of the **_Human-in-the-loop-RL framework_**.  
 
