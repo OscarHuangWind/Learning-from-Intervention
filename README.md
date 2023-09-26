@@ -1,6 +1,6 @@
 # _[ICRA'24] Supplementary Materials_: Check the HD video and more details in our project website ! :arrow_double_down:
 
-## [[**Project Website**]](https://oscarhuangwind.github.io/Learning-from-Intervention./) | [[**Video**]](https://youtu.be/_by9OOPyNNE)
+## [[**Project Website**]](https://oscarhuangwind.github.io/Learning-from-Intervention/) | [[**Video**]](https://youtu.be/_by9OOPyNNE)
 
 # LfMG: UnaRL for Autonomous Driving
 
