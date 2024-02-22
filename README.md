@@ -1,4 +1,4 @@
-# _[ICRA'24] ACCEPTED!_ 
+# :tada: _ICRA 2024 ACCEPTED!_ :confetti_ball:
 # LfMG: UnaRL for Autonomous Driving
 
 ## [[**Project Website**]](https://oscarhuangwind.github.io/Learning-from-Intervention/) | [[**Youtube**]](https://youtu.be/P4XWiXknpDA) | [[**BiliBili**]](https://www.bilibili.com/video/BV1TC4y1o75U)
